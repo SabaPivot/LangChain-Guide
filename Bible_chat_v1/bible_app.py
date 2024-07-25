@@ -4,6 +4,7 @@ from langchain.prompts import (
     ChatPromptTemplate,
 )
 import utils
+load_dotenv()
 
 st.set_page_config(page_title="Bible Talk", page_icon="🕊")
 st.title("Bible Talk 🕊")
