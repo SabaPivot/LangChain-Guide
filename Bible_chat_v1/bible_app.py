@@ -7,8 +7,6 @@ import utils
 
 st.set_page_config(page_title="Bible Talk", page_icon="🕊")
 st.title("Bible Talk 🕊")
-load_dotenv()
-
 # Initialize chat history
 if "chat_started" not in st.session_state:
     st.session_state.chat_started = True
